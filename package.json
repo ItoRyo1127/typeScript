@@ -4,7 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "ts-node-dev --respawn",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "format": "prettier --write src/**/*.ts"
   },
   "repository": {
     "type": "git",
@@ -16,5 +18,18 @@
   "bugs": {
     "url": "https://github.com/ItoRyo1127/typeScript/issues"
   },
-  "homepage": "https://github.com/ItoRyo1127/typeScript#readme"
+  "homepage": "https://github.com/ItoRyo1127/typeScript#readme",
+  "devDependencies": {
+    "prettier": "^2.8.4",
+    "ts-node": "^10.9.1",
+    "tslint-config-prettier": "^1.18.0",
+    "typescript": "^4.9.5"
+  },
+  "dependencies": {
+    "axios": "^1.3.2",
+    "ts-node-dev": "^2.0.0"
+  },
+  "volta": {
+    "node": "12.14.1"
+  }
 }

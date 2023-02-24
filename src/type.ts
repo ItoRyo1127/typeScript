@@ -1,0 +1,1 @@
+const debugProfile = (name:string,age:number)=>
